@@ -22,7 +22,7 @@ public class PrintHelloWorldApplication {
 
 			String[] beanNames = ctx.getBeanDefinitionNames();
 			Arrays.sort(beanNames);
-			//Arrays.stream(beanNames).forEach(System.out::println);
+			Arrays.stream(beanNames).forEach(System.out::println);
 
 		};
 	}
